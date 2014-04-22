@@ -2,7 +2,7 @@ module SmsSenderRasaelna
   require "net/http"
   require "uri"
 
-  def send_sms(user_name, user_password, numbers, user_sender, message)
+  def self.send_sms(user_name, user_password, numbers, user_sender, message)
     puts "==================== Enter send_sms method ===================="
     uri = URI.parse("http://rasaelna.com/sms/gw/")
     # According to documentation, message should be ASCII windows-1256 charset encoded
