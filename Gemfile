@@ -13,5 +13,3 @@ gemspec
 # To use debugger
 # gem 'debugger'
 
-gem 'pg'
-gem 'sqlite3'
